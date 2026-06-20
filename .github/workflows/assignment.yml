@@ -1,0 +1,12 @@
+name: Assignment Verification Workflow
+
+on:
+  push:                # Triggers the action every time you save changes
+  workflow_dispatch:   # Adds a manual button to trigger the action
+
+jobs:
+  verify-assignment:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 22f3002941@ds.study.iitm.ac.in
+        run: echo "Assignment requirement successfully met!"
