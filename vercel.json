@@ -1,0 +1,5 @@
+{
+  "rewrites": [
+    { "source": "/api/latency", "destination": "/api/latency.py" }
+  ]
+}
