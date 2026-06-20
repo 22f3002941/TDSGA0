@@ -1,4 +1,9 @@
 {
+  "functions": {
+    "api/latency.py": {
+      "runtime": "vercel-python@latest"
+    }
+  },
   "rewrites": [
     { "source": "/api/latency", "destination": "/api/latency.py" }
   ]
