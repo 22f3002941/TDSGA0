@@ -1,0 +1,15 @@
+name: Email Step Workflow
+
+on:
+  workflow_dispatch:
+  push:
+
+jobs:
+  email-step-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: 22f3002941@ds.study.iitm.ac.in
+        run: echo "GitHub Actions step with my email"
